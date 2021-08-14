@@ -31,6 +31,12 @@ function result(e){
             case "-":
                 result-=numberOne-numberTwo;
                 return result;
+            case "*":
+                result*=numberOne*numberTwo;
+                return result;
+            case "/":
+                result/=numberOne/numberTwo;
+                return result;
             default:
                 alert("COLOCA O OPERADOR LOKÃO!");
                 return result;         
